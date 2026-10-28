@@ -4,6 +4,9 @@ import socket
 import redis
 from flask import Flask, request
 
+
+# KR2: Isakov
+
 app = Flask(__name__)
 
 r = redis.Redis(
