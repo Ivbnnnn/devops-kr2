@@ -1,8 +1,12 @@
+# KR2: Isakov
 import os
 import socket
 
 import redis
 from flask import Flask, request
+
+
+
 
 app = Flask(__name__)
 
